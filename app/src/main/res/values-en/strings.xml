@@ -26,8 +26,8 @@
     <string name="label_class">Class</string>
     <string name="label_phone">Phone</string>
     <string name="value_mssv">2474802010525</string>
-    <string name="value_class">Not updated</string>
-    <string name="value_phone">Not updated</string>
+    <string name="value_class">K30CNTT01</string>
+    <string name="value_phone">08994774311</string>
     <string name="btn_edit">Edit</string>
     <string name="btn_logout">Log out</string>
     <string name="edit_toast">Edit feature will be implemented later.</string>

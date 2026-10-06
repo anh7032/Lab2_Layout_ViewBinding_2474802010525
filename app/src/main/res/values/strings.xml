@@ -26,8 +26,8 @@
     <string name="label_class">Lớp</string>
     <string name="label_phone">Số điện thoại</string>
     <string name="value_mssv">2474802010525</string>
-    <string name="value_class">Chưa cập nhật</string>
-    <string name="value_phone">Chưa cập nhật</string>
+    <string name="value_class">K30CNTT01</string>
+    <string name="value_phone">08994774311</string>
     <string name="btn_edit">Chỉnh sửa</string>
     <string name="btn_logout">Đăng xuất</string>
     <string name="edit_toast">Chức năng chỉnh sửa sẽ được phát triển sau.</string>
