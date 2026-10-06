@@ -4,6 +4,8 @@
 **Student ID:** 2474802010525  
 **Package:** `vn.edu.vlu.lab2`
 
+**Class:** K30CNTT01 | **Phone:** 08994774311
+
 ## Project requirements implemented
 
 - `LoginActivity` is the launcher screen.
@@ -12,6 +14,7 @@
 - ViewBinding enabled; no `findViewById()` is used.
 - All user-facing strings are in `strings.xml`.
 - English resources are included in `values-en/strings.xml`.
+- Login uses the Van Lang shield logo matching the supplied reference ([VanLang Uni icon source](https://apps.apple.com/vn/app/vanlang-uni/id1475199285)).
 - Validation cases:
   - Missing email/password.
   - Invalid email format.
@@ -93,6 +96,8 @@ Screenshots captured from the running Android application on AVD `18_pro_max`, o
 ### Layout Inspector
 
 The screenshot below shows Android Studio Layout Inspector inspecting the running Profile screen. The Component Tree is expanded and `tvValueEmail` is selected; the Attributes panel displays its position, measured dimensions and declared layout properties.
+
+This Layout Inspector screenshot was captured before the class and phone values were updated.
 
 ![Android Studio Layout Inspector with tvValueEmail selected](screenshots/layout_inspector.png)
 
