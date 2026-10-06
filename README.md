@@ -50,41 +50,41 @@ Screenshots captured from the running Android application on AVD `18_pro_max`, o
 
 | Scenario | Configuration | Evidence |
 |---|---|---|
-| Large phone | 1080 × 2400 px, 420 dpi, font scale 1.0 | [Login](screenshots/login.png), [Profile](screenshots/profile.png) |
-| Small phone | 720 × 1440 px, 360 dpi (320dp wide) | [Login](screenshots/login_small.png) |
-| Keyboard visible | Small phone; password focused; form scrolled | [Login and keyboard](screenshots/login_keyboard.png) |
-| Landscape phone | Large phone rotated 90° | [Login](screenshots/login_landscape.png), [Profile](screenshots/profile_landscape.png), [Profile buttons after scrolling](screenshots/profile_landscape_bottom.png) |
-| Large text and long email | 720 × 1600 px, 360 dpi; font scale 2.0 | [Login](screenshots/login_large_font.png), [Login after scrolling](screenshots/login_large_font_bottom.png), [Profile top](screenshots/profile_large_font.png), [Profile bottom](screenshots/profile_large_font_bottom.png) |
-| Tablet portrait | 1600 × 2560 px, 320 dpi (800dp wide) | [Login](screenshots/login_tablet.png), [Profile](screenshots/profile_tablet.png) |
-| Tablet landscape | Tablet rotated 90° | [Login](screenshots/login_tablet_landscape.png), [Profile](screenshots/profile_tablet_landscape.png) |
+| Large phone | 1080 × 2400 px, 420 dpi, font scale 1.0 | [Login](screenshots/login_vlu.png), [Profile](screenshots/profile_vlu.png) |
+| Small phone | 720 × 1440 px, 360 dpi (320dp wide) | [Login](screenshots/login_small_vlu.png) |
+| Keyboard visible | Small phone; password focused; form scrolled | [Login and keyboard](screenshots/login_keyboard_vlu.png) |
+| Landscape phone | Large phone rotated 90° | [Login](screenshots/login_landscape_vlu.png), [Profile](screenshots/profile_landscape_vlu.png), [Profile buttons after scrolling](screenshots/profile_landscape_bottom_vlu.png) |
+| Large text and long email | 720 × 1600 px, 360 dpi; font scale 2.0 | [Login](screenshots/login_large_font_vlu.png), [Login after scrolling](screenshots/login_large_font_bottom_vlu.png), [Profile top](screenshots/profile_large_font_vlu.png), [Profile bottom](screenshots/profile_large_font_bottom_vlu.png) |
+| Tablet portrait | 1600 × 2560 px, 320 dpi (800dp wide) | [Login](screenshots/login_tablet_vlu.png), [Profile](screenshots/profile_tablet_vlu.png) |
+| Tablet landscape | Tablet rotated 90° | [Login](screenshots/login_tablet_landscape_vlu.png), [Profile](screenshots/profile_tablet_landscape_vlu.png) |
 
 ### Login and Profile
 
-<img src="screenshots/login.png" alt="Login screen" width="280" />
-<img src="screenshots/profile.png" alt="Profile screen" width="280" />
+<img src="screenshots/login_vlu.png" alt="Login screen" width="280" />
+<img src="screenshots/profile_vlu.png" alt="Profile screen" width="280" />
 
 ### Landscape and keyboard
 
-<img src="screenshots/login_landscape.png" alt="Landscape Login" width="640" />
-<img src="screenshots/login_keyboard.png" alt="Login button accessible above the keyboard" width="280" />
+<img src="screenshots/login_landscape_vlu.png" alt="Landscape Login" width="640" />
+<img src="screenshots/login_keyboard_vlu.png" alt="Login button accessible above the keyboard" width="280" />
 
 ### Large text
 
-<img src="screenshots/login_large_font.png" alt="Login at font scale 2.0" width="280" />
-<img src="screenshots/login_large_font_bottom.png" alt="Login actions accessible after scrolling at font scale 2.0" width="280" />
-<img src="screenshots/profile_large_font_bottom.png" alt="Wrapped Profile rows and accessible buttons at font scale 2.0" width="280" />
+<img src="screenshots/login_large_font_vlu.png" alt="Login at font scale 2.0" width="280" />
+<img src="screenshots/login_large_font_bottom_vlu.png" alt="Login actions accessible after scrolling at font scale 2.0" width="280" />
+<img src="screenshots/profile_large_font_bottom_vlu.png" alt="Wrapped Profile rows and accessible buttons at font scale 2.0" width="280" />
 
 ### Tablet
 
-<img src="screenshots/login_tablet.png" alt="Centered tablet Login form" width="320" />
-<img src="screenshots/profile_tablet.png" alt="Centered tablet Profile" width="320" />
+<img src="screenshots/login_tablet_vlu.png" alt="Centered tablet Login form" width="320" />
+<img src="screenshots/profile_tablet_vlu.png" alt="Centered tablet Profile" width="320" />
 
 ### Validation evidence
 
-- [Empty input](screenshots/validation_empty.png).
-- [Invalid email](screenshots/validation_email.png).
-- [Password shorter than 6 characters](screenshots/validation_password.png).
-- [Show password](screenshots/show_password.png).
+- [Empty input](screenshots/validation_empty_vlu.png).
+- [Invalid email](screenshots/validation_email_vlu.png).
+- [Password shorter than 6 characters](screenshots/validation_password_vlu.png).
+- [Show password](screenshots/show_password_vlu.png).
 - Valid input navigates to Profile and displays `sv01@vlu.edu.vn`; Logout returns to Login.
 
 ### Build checks
