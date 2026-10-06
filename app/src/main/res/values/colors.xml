@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vlu_blue">#1976D2</color>
+    <color name="text_secondary">#666666</color>
+    <color name="avatar_bg">#E3F2FD</color>
+    <color name="button_secondary">#ECEFF1</color>
+</resources>
