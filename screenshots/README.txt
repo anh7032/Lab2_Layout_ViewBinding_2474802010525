@@ -1,6 +1,9 @@
-Screenshots here are captured from the running application on AVD 18_pro_max.
-Different display sizes and font scales were simulated on the same emulator.
-See ../README.md for the test matrix and links.
+This folder contains 19 application screenshots and 1 Android Studio
+Layout Inspector screenshot (layout_inspector.png).
 
-Still needed for submission: a real Android Studio Layout Inspector screenshot
-(layout_inspector.png). ADB UI hierarchy XML is not a Layout Inspector capture.
+Application screenshots were captured on AVD 18_pro_max. Different display
+sizes and font scales were simulated on the same emulator.
+Layout Inspector shows the Profile screen with tvValueEmail selected,
+the expanded Component Tree and the Attributes panel.
+
+See ../README.md for the test matrix and images.

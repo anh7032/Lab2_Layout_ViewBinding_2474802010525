@@ -90,9 +90,11 @@ Screenshots captured from the running Android application on AVD `18_pro_max`, o
 - `lintDebug`: successful, 0 errors and 10 warnings (library updates, outline attribute compatibility, unused color and missing launcher icon).
 - Visible Profile label/value bounds were checked in the normal, large-font and tablet captures: no overlapping rows or columns.
 
-### Remaining submission evidence
+### Layout Inspector
 
-An Android Studio **Layout Inspector screenshot is still required**. ADB UI hierarchy dumps were used during verification but do not replace the Layout Inspector screenshot requested by the lab. Capture the real tool window and add it here before submitting.
+The screenshot below shows Android Studio Layout Inspector inspecting the running Profile screen. The Component Tree is expanded and `tvValueEmail` is selected; the Attributes panel displays its position, measured dimensions and declared layout properties.
+
+![Android Studio Layout Inspector with tvValueEmail selected](screenshots/layout_inspector.png)
 
 ## GitHub submission
 
